@@ -74,4 +74,18 @@ header {
     background-image: url('../images/bg.jpg'); /* ..volta uma pasta */
     background-size: cover; /* ajusta o tamanho de forma q preenche todo o espaço */
     background-position: bottom; /*ajusta a posição, priorizando a parte inferior da imagem */
+    overflow: hidden;
+}
+
+.banner .sliders {
+    width: 1000vw;
+    height: 100%;
+    
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block; /* inline fica lado a lado , block mantem as propriedades */
+    background-color: rgba(0, 0, 0, 0.8);
 }
