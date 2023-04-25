@@ -89,3 +89,22 @@ header {
     display: inline-block; /* inline fica lado a lado , block mantem as propriedades */
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.banner .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center; /*posiciona horizontalmente */
+    align-items: center; /*posiciona verticalmente */
+    color: #fff;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span {
+    color: #b28756;
+}
