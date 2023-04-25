@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+header {
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+.cabecalho {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logoimg {
+    width: 80px;
+    height: 80px;
+    background-color: #b28756;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;  /* o conteúdo ficará centralizado horizontalmente na direita */
+}
+
+.menu ul,
+.menu li {
+    list-style: none; /* tira os marcadores */
+}
+
+.menu ul {
+    display: flex; /* já deixa os itens do menu um ao lado do outro */
+}
+
+.menu li a {  
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;  /* O 'a' por padrão tem o display inline, para ele ter a altura é preciso colocar o display block ou flex( o flex tem como centralizar) */
+    align-items: center;
+    border-bottom: 5px solid #000; /* evita q o texto pule */
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 5px solid #b28756;
+}
