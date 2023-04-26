@@ -115,8 +115,8 @@ header {
     margin-top: 20px;
 }
 
-.banner a {
-    display: block;
+.button {
+    display: inline-block;
     background-color: #b28756;
     color: #fff;
     text-transform: uppercase;
@@ -179,15 +179,14 @@ header {
 .default .section-body {
     max-width: 1140px;
     margin: auto;
-    min-height: 100px;
-    background-color: #ccc;
 }
 
 .default.light {
     background-color: #f7f7f7;
 }
 
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body {
     color: #000;
 }
 
@@ -195,6 +194,37 @@ header {
     background-color: #000;
 }
 
-.default.dark .section-title {
+.default.dark .section-title,
+.default.dark .section-body {
     color: #f7f7f7;
+}
+
+
+
+/*
+CSS DE ÁREAS ESPECÍFICAS
+*/
+
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus-left {
+    flex: 1;
+}
+
+.section-aboutus-left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus-right {
+    width: 520px;
+    text-align: center;
+    
+}
+
+.section-aboutus-right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
