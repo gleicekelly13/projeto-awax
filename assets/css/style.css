@@ -295,3 +295,31 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-projects-filters li:first-child {
     border-left: 0;
 }
+
+.section-projects-photos {
+    width: 100vw; /* se o monitor for menor, ele vai usar toda a área disponível da tela */
+    max-width: 1140px; /* se o monitor for muito grande, ele vai precisar ter um limite */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects-photo {
+    width: 280px; /* esse valor é suficiente para caber em um celular */
+}
+
+.section-projects-photoarea {
+    margin: 10px;
+    width: 260px; /* dminui 20px dos 280px */
+    height: 160px;
+}
+
+.section-projects-photoarea img {
+    width: inherit; /* herda do item anterior */
+    height: inherit;
+}
+
+.section-projects-photoinfo {
+    display: none;
+}
