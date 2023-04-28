@@ -452,3 +452,54 @@ CSS DE ÁREAS ESPECÍFICAS
     justify-content: center;
     align-items: center;
 }
+
+.john {
+    width: 100px;
+   margin-top: -5px;
+}
+
+.john-name {
+     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.john-role {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.aspas {
+    width: 15px;
+    margin-top: 25px;
+}
+
+.section-description {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.section-happyarea .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happyarea .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-happyarea .pointer.active {
+    background-color: #b28756;
+}
