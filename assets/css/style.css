@@ -445,3 +445,10 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-team-social a:hover {
     background-color: #b28756;
 }
+
+.section-happyarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
