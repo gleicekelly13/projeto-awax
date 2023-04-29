@@ -702,3 +702,62 @@ CSS DE ÁREAS ESPECÍFICAS
     font-size: 13px;
     color: #999;
 }
+
+.section-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #999;
+}
+
+.section-share-legend {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.section-share-legend img {
+    margin-right: 10px;
+}
+
+.section-share-item {
+    font-size: 12px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-share-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ccc;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-share-icon img {
+    height: 12px;
+}
+
+.section-share-icon.twitter {
+    background-color: #34c5f0;
+}
+
+.section-share-icon.linkedin {
+    background-color:#127cb4;
+}
+.section-share-icon.facebook {
+    background-color:#336297;
+}
+.section-share-icon.googleplus {
+    background-color:#e74237;
+}
+.section-share-icon.pinterest {
+    background-color:#b71c29;
+}
