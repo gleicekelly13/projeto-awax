@@ -669,3 +669,36 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-premium .pointer.active {
     background-color: #b28756;
 }
+
+.section-facts {
+    display: flex;
+}
+
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fact h3 {
+    color: #b28756;
+    font-size: 45px;
+}
+
+.section-fact-line {
+    width: 20px;
+    border-bottom: 2px solid #b28756;
+    margin: auto;
+}
+
+.section-fact h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-fact p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
