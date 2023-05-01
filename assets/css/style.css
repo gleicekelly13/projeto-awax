@@ -981,4 +981,47 @@ input:first-child {
     .section-team {
         max-width: 580px;
     }
+
+    .section-price {
+        flex-wrap: wrap;
+    }
+
+    .section-price-item {
+        margin-left: 20px;
+        min-width: calc(50% - 40px);
+        margin-bottom: 20px;
+    }
+
+    .section-price-item:last-child {
+        margin-right: 20px;
+    }
+
+    .section-facts {
+        flex-wrap: wrap;
+    }
+
+    .section-fact {
+        min-width: 50%;
+    }
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-map-area {
+        width: auto;
+    }
+
+    .section-map-info {
+        width: auto;
+    }
+
+    .section-map-info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map-info-item:last-child {
+        margin-bottom: 0;
+    }
 }
