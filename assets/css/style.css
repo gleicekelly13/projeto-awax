@@ -1126,4 +1126,41 @@ input:first-child {
         max-width: 280px;
     }
 
+    .section-companies-area {
+        flex-wrap: wrap;
+    }
+
+    .section-company {
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .section-price {
+        flex-wrap: wrap;
+    }
+
+    .section-price-item {
+        margin-left: 20px;
+        min-width: calc(100% - 40px);
+        margin-bottom: 20px;
+    }
+
+    .section-price-item:last-child {
+        margin-right: 20px;
+    }
+
+    .section-premium .slidearea {
+        flex-direction: column;
+    }
+
+    .section-premium-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-premium-right {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
