@@ -1094,4 +1094,36 @@ input:first-child {
     .section-aboutus-right img {
         width: 100%;
     }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    .section-projects-filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects-photo {
+        width: 320px;
+    }
+
+    .section-projects-photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-team {
+        max-width: 280px;
+    }
+
 }
