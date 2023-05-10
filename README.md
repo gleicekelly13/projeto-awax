@@ -11,3 +11,9 @@
 <br>
 
 ## :iphone: Mobile design
+<br>
+<div align="center">
+<img src="https://github.com/gleicekelly13/Clone-dos-resultados-do-Google/assets/80974593/21282155-2276-4870-a22c-480f21a7c115.png" width="300"/>
+</div>
+<br>
+
