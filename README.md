@@ -8,3 +8,6 @@
 <div align="center">
 <img src="https://github.com/gleicekelly13/Clone-dos-resultados-do-Google/assets/80974593/d8bb3ce6-b803-4ff6-beb6-812a08b4150e.png" width="500"/>
 </div>
+<br>
+
+## :iphone: Mobile design
