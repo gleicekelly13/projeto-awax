@@ -24,6 +24,7 @@
 
 <h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
 <p>Criação do menu utilizando a tag 'nav'</p>
+<p>Posicionamento dos elementos utilizando flexbox</p>
 
 <br>
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
