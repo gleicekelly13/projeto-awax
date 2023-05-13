@@ -26,6 +26,7 @@
 <p>Criação do menu utilizando a tag 'nav'</p>
 <p>Posicionamento dos elementos utilizando flexbox</p>
 <p>Organização das divs e classes</p>
+<p>Melhoria na prática da responsividade</p>
 
 <br>
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
